@@ -4,9 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <title>Parle G ice cream</title>
+    <style>
+         body {
+             background-image: linear-gradient(to top, #edf4f206 0%, #cdd7dd56 100%);
+        color:            #9b15b3;
+        width:            50%;
+        margin:           60px auto;
+        font-family:      "Cerebri Sans", Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid #0c0101;
+        padding: 20px;
+        border-radius: 4px;
+
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 24px;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+        border-radius: 4px;
+      }
+
+      button {
+        background:     rgba(0,0,0,0.87);
+        border:         none;
+        font-size:      42px;
+        border-radius:  4px;
+        text-transform: uppercase;
+        color:          #efdfecda;
+        display:        block;
+        padding:        10px 20px;
+        transition:     opacity 150ms ease;
+        cursor:         pointer;
+        opacity:        1;
+        box-shadow:     0 1px 20px rgba(49, 3, 3, 0.539);
+        margin:         30px auto;
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+
+      a {
+        color: #e415a29f;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>I love Ice_cream</h1>
+    <h2>Especially Parle G ice cream</h2>
+ <img
+         src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/073/438/original/chocolate-parle-g-ice-cream.jpg?1679689885" 
+         aet=""
+         />
+         <hr />
+         <p>
+         <strong>Parle G ice creame </strong>is a frozen dessert, typically made from milk or cream and flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit such as strawberries or peaches. It can also be made by whisking a flavored cream base and liquid nitrogen together.
+         </p>
+         <a
+           href="https://en.wikipedia.org/wiki/Ice_cream"
+          target="_blank">
+          Read on wikipedia
+          </a>
+         <br />
+         <button 
+         class="btn">Try parle G ice cream </button> 
+         <script>
+          document.querySelector(".btn").addEventListener("click",
+         function () {
+         let name = prompt("what is your name?");
+         if (name.length) {
+         alert(
+         "Thanks," +
+         name +
+         " , we will be in touch. Meanwhile,have alot of ice cream"
+         );
+         } else {
+         alert("No name, no parle G ice cream for you!");
+         }
+         });
+         </script>
+          <p class="coded">coded by Bonisile Ntshangase</p>
+         </body>
+         </html>
